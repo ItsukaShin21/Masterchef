@@ -1,0 +1,51 @@
+:root {
+    --font-color1: #FFF;
+}
+
+.login-body, .register-body {
+    background-color: #292929;
+    overflow: hidden;
+}
+
+.loginText, .registerText {
+    color: var(--font-color1);
+    font-size: 64px;
+}
+
+.p-login-text, .p-register-text {
+    color: var(--font-color1);
+}
+
+.email-txtbox, .password-txtbox, .username-txtbox {
+    height: 48px;
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+    color: var(--font-color1);
+    background-color: transparent !important;
+}
+
+.email-txtbox, .username-txtbox {
+    margin-bottom: 32px;
+}
+
+.login-button, .register-button {
+    height: 48px;
+    background-color: #FFA31A;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.login-button:active, .register-button:active {
+    background-color: #fac26e;
+}
+
+.login-form-container {
+    margin-left: -15%;
+}
+
+.logo {
+    margin-top: -15%;
+    width: 110%;
+}
+
+

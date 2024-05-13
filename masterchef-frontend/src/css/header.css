@@ -1,0 +1,45 @@
+:root {
+    --font-color: #FFF;
+}
+
+.header-container {
+    background-color: #4c4a4a;
+    width: auto;
+    height: 7vh;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+
+.home-logo {
+    width: 15%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-buttons {
+    width: 50vw;
+}
+
+.header-row1 {
+    width: 51vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-nav {
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+.logout-button, .post-modal-button {
+    margin-right: 4%;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: var(--font-color);
+}
+
+.logout-button:hover, .post-modal-button:hover, .home-nav:hover {
+    color: #fac26e;
+}

@@ -1,0 +1,23 @@
+.comment-item-container {
+    background-color: #FFA31A;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.comment-owner {
+    width: 65%;
+}
+
+.comment-options {
+    width: 35%;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.no-comment-items {
+    background-color: #FFA31A;
+    border-radius: 5px;
+    padding: 10px;
+}
